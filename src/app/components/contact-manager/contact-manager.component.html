@@ -1,0 +1,92 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <p class="h3 ">
+        NG Contacts
+      </p>
+      <p class="fst-italic">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, laborum.
+        Quo, optio doloribus cum nesciunt delectus neque molestias doloremque
+        libero non quidem molestiae vero iusto rerum minus, facilis assumenda
+        labore.
+      </p>
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search User"
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="submit"
+                  class="btn btn-outline-dark"
+                  value="Search"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Cards -->
+
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="card list-group-item-danger shadow-lg">
+        <div class="card-body">
+          <div class="row align-item-centre">
+            <div class="col-sm-4">
+              <img
+                alt=""
+                class="contact-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGWm7kgMH1PEsycRwkyqPcPB1b2NITpD8j2g&usqp=CAU.png"
+              />
+            </div>
+            <div class="col-sm-7">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  Name: <span class="fw-bold"></span>
+                </li>
+                <li class="list-group-item">
+                  Email: <span class="fw-bold"></span>
+                </li>
+                <li class="list-group-item">
+                  Mobile: <span class="fw-bold"></span>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-sm-1 d-flex flex-column justify-content-centre align-item-centre"
+            >
+              <a
+                routerLink="/contacts/view/:contactID"
+                class="btn btn-warning my-1"
+              >
+               <i class="fa fa-eye "></i>
+              </a>
+
+              <a
+                routerLink="/contacts/edit/:contactID"
+                class="btn btn-primary my-1"
+              >
+                <i class="fa fa-pen"></i>
+              </a>
+              <button class="btn btn-danger my-1">
+                <i class="fa fa-trash-alt"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+{
+  "contacts": [
+    {
+      "id": "nsgshsns",
+      "name": "brad",
+      "company": "Youtube",
+      "email": "brad@gamil.com",
+      "title": "Youtuber",
+      "mobile": "9876543210",
+      "photo": "",
+      "groupId": "1"
+    },
+    {
+      "id": "nsgshsns",
+      "name": "john",
+      "company": "Youtube",
+      "email": "brad@gamil.com",
+      "title": "Youtuber",
+      "mobile": "9876543210",
+      "photo": "",
+      "groupId": "2"
+    },
+    {
+      "id": "nsgshsns",
+      "name": "kite",
+      "company": "Youtube",
+      "email": "brad@gamil.com",
+      "title": "Youtuber",
+      "mobile": "9876543210",
+      "photo": "",
+      "groupId": "3"
+    },
+    {
+      "id": "nsgshsns",
+      "name": "mac",
+      "company": "Youtube",
+      "email": "brad@gamil.com",
+      "title": "Youtuber",
+      "mobile": "9876543210",
+      "photo": "",
+      "groupId": "4"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Family"
+    },
+    {
+      "id": "3",
+      "name": "Service"
+    },
+    {
+      "id": "4",
+      "name": "Office"
+    }
+  ]
+}
